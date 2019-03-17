@@ -1,0 +1,174 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.ct_layout {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.ct_header {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+    position: absolute;
+
+}
+
+.ct_back {
+    width: 50px;
+    height: 50px;
+    background-image: url(../../images/sprites.png);
+    background-origin: content-box;
+    padding: 14px;
+    background-clip: content-box;
+    background-size: 200px 200px;
+    background-position: -20px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.ct_menu {
+    width: 50px;
+    height: 50px;
+    background-image: url(../../images/sprites.png);
+    background-origin: content-box;
+    padding: 14px;
+    background-clip: content-box;
+    background-size: 200px 200px;
+    background-position: -59px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.ct_search {
+    width: 100%;
+    height: 100%;
+    padding: 0 60px;
+
+}
+
+.ct_search>input {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.ct_content {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+
+
+}
+
+.ct_content>.left {
+    width: 100px;
+    height: 100%;
+    background-color: #eee;
+    float: left;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.ct_content>.left>ul {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+.ct_content>.left>ul>li {
+    width: 100%;
+    height: 50px;
+
+}
+
+.ct_content>.left>ul>li>a {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+   border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-top: -1px;
+   
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.ct_content>.left>ul>li.active>a {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border-bottom: none;
+    text-align: center;
+    color: red;
+    background-color: #fff;
+}
+
+.ct_content>.right {
+    height: 100%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ct_content>.right>.tittle {
+    width: 100%;
+}
+
+.ct_content>.right>.tittle>img {
+    width: 100%;
+}
+
+.ct_content>.right>h3 {
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+.ct_content>.right>.main {
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+
+}
+
+.ct_content>.right>.main li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: #ccc;
+
+}
+
+.right>.main>li>a {
+    width: 100%;
+}
+
+.right>.main>li>a>img {
+    width: 100%
+}
